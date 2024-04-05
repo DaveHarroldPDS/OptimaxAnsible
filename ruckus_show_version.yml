@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+  tasks:
+    - name: Show Version on switch
+      commscope.icx.icx_command:
+        command: show version
+
