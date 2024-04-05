@@ -1,6 +1,6 @@
 ---
 
-- hosts: all
+- hosts: test
   tasks:
     - name: Show Version on switch
       commscope.icx.icx_command:
